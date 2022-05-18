@@ -1,0 +1,98 @@
+.home {
+  width: 100%;
+  height: 100%;
+  // .demo-tabs-style1 > .ivu-tabs-card > .ivu-tabs-content {
+  //       height: 120px;
+  //       margin-top: -16px;
+  //   }
+
+  //   .demo-tabs-style1 > .ivu-tabs-card > .ivu-tabs-content > .ivu-tabs-tabpane {
+  //       background: #fff;
+  //       padding: 16px;
+  //   }
+
+  //   .demo-tabs-style1 > .ivu-tabs.ivu-tabs-card > .ivu-tabs-bar .ivu-tabs-tab {
+  //       border-color: transparent;
+  //   }
+
+  //   .demo-tabs-style1 > .ivu-tabs-card > .ivu-tabs-bar .ivu-tabs-tab-active {
+  //       border-color: #fff;
+  //   }
+    // .demo-tabs-style2 > .ivu-tabs.ivu-tabs-card > .ivu-tabs-bar .ivu-tabs-tab{
+    //     border-radius: 0;
+    //     background: #fff;
+    // }
+    // .demo-tabs-style2 > .ivu-tabs.ivu-tabs-card > .ivu-tabs-bar .ivu-tabs-tab-active{
+    //     border-top: 1px solid #3399ff;
+    // }
+    // .demo-tabs-style2 > .ivu-tabs.ivu-tabs-card > .ivu-tabs-bar .ivu-tabs-tab-active:before{
+    //     content: '';
+    //     display: block;
+    //     width: 100%;
+    //     height: 1px;
+    //     background: #3399ff;
+    //     position: absolute;
+    //     top: 0;
+    //     left: 0;
+    // }
+}
+
+// // 渲染动画
+// .component-fade-enter-active, .component-fade-leave-active {
+//   transition: opacity .5s ease;
+// }
+
+// .component-fade-enter, .component-fade-leave-to
+//   /* .component-fade-leave-active for below version 2.1.8 */
+// {
+//   opacity: 0;
+// }
+
+// .tri_bottom {
+//   width: 10px;
+//   height: 10px;
+// }
+
+// .tri_bottom_sanjiao {
+//   width: 0;
+//   height: 0;
+//   border-left: 0px solid #CCCCCC;
+//   border-right: 10px solid #CCCCCC;
+//   border-top: 10px solid #CCCCCC;
+//   border-bottom: 0px solid #CCCCCC;
+//   transform: rotate(45deg);
+//   margin-top: 10px;
+// }
+
+//.tri_left:before{
+//  content: "";
+//  width: 0px;
+//  height: 0px;
+//  border-top: 10px solid transparent;
+//  border-bottom: 10px solid transparent;
+//  border-right: 10px solid #CCCCCC;
+//  position: absolute;
+//  top: 40px;
+//  left: -10px;
+//}
+//.home-child {
+//  margin-top: 10px;
+//}
+
+// tab标签的下边距
+// ::v-deep .ivu-tabs-bar{
+//   margin-bottom:0;
+// }
+
+::v-deep .ivu-tabs-nav-scroll{
+  .ivu-tabs-nav{
+    margin-left:10%;
+  }
+}
+
+::v-deep .ivu-tabs .ivu-tabs-tabpane{
+  box-sizing: border-box;
+  overflow:auto;
+  height:88vh;
+}
+
