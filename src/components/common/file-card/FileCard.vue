@@ -15,7 +15,7 @@
           Change
         </a>
       </template>
-      <p class="rate-demo" v-for="item in randomMovieList">
+      <p class="rate-demo" v-for="item in randomMovieList" :key="item">
         <a :href="item.url" target="_blank">{{ item.name }}</a>
         <span> <Rate disabled v-model="item.rate" />{{ item.rate }} </span>
       </p>
